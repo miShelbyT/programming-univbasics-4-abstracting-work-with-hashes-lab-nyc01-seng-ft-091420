@@ -1,5 +1,5 @@
 def my_hash_creator(key, value)
-  comedians(:name => "Colbert")
+  comedians(key, value)
 end
 
 def read_from_hash(hash, key)
